@@ -11,8 +11,8 @@ export default function Testimonial() {
       <div className="mx-auto grid w-full max-w-7xl gap-6 md:grid-cols-[1fr_1.2fr]">
         <Reveal className="relative h-56 overflow-hidden rounded-3xl border border-border md:h-auto">
           <Image
-            src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=80"
-            alt="Warehouse operations"
+            src="/images/sydney-warehouse.jpg"
+            alt="Sydney warehouse operations"
             fill
             sizes="(max-width: 768px) 100vw, 42vw"
             className="object-cover"

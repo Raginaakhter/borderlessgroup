@@ -6,18 +6,17 @@ type Props = {
 };
 
 export default function Logo({ className = "", size = "md" }: Props) {
-  const height = size === "sm" ? 38 : 48;
-  const width = Math.round((322 / 62) * height);
+  const height = size === "sm" ? 44 : 56;
 
   return (
     <span className={`inline-flex items-center ${className}`}>
       <Image
         src="/logo.png"
-        alt="Borderless Group — Sydney to Bangladesh"
-        width={width}
-        height={height}
+        alt="Borderless Group — Connecting You Beyond Borders"
+        width={600}
+        height={200}
         priority
-        className="h-auto select-none"
+        className="select-none"
         style={{ height, width: "auto" }}
       />
     </span>

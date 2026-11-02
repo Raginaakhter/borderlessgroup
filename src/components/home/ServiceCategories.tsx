@@ -14,43 +14,39 @@ type Category = {
   href: string;
 };
 
-// Unsplash photo URLs with crop + quality params for Next/Image.
-const u = (id: string) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=900&h=1100&q=80`;
-
 const categories: Category[] = [
   {
     title: "Shipping & Logistics",
     tagline: "AU ↔ BD, door to door",
-    image: u("photo-1494412574643-ff11b0a5c1c3"),
+    image: "/images/service-shipping.jpg",
     art: "shipping",
     href: "/services#au-bd",
   },
   {
     title: "Parcels & Documents",
     tagline: "Gifts, personal items, papers",
-    image: u("photo-1566576912321-d58ddd7a6088"),
+    image: "/images/service-parcels.jpg",
     art: "parcel",
     href: "/services#au-bd",
   },
   {
     title: "Interstate Courier",
     tagline: "Capital cities & regional AU",
-    image: u("photo-1601584115197-04ecc0da31d7"),
+    image: "/images/service-interstate.jpg",
     art: "cargo",
     href: "/services#interstate",
   },
   {
     title: "3PL Fulfilment",
     tagline: "Sydney warehouse (soon)",
-    image: u("photo-1553413077-190dd305871c"),
+    image: "/images/service-3pl.jpg",
     art: "warehouse",
     href: "/services#3pl",
   },
   {
     title: "Customs & Import",
     tagline: "Paperwork handled for you",
-    image: u("photo-1554224155-6726b3ff858f"),
+    image: "/images/service-customs.jpg",
     art: "customs",
     href: "/services",
   },

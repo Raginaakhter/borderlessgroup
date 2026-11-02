@@ -111,7 +111,7 @@ export default function ContactPage() {
         <div className="mx-auto w-full max-w-6xl">
           <Reveal className="relative h-72 overflow-hidden rounded-3xl border border-border bg-surface sm:h-80">
             <Image
-              src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1600&q=80"
+              src="/images/sydney-location.jpg"
               alt="Sydney location"
               fill
               sizes="100vw"

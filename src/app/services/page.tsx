@@ -65,7 +65,7 @@ export default function ServicesPage() {
         eyebrow="Service 1"
         title="Shipping from Australia to Bangladesh"
         intro="Send gifts, clothing, cosmetics, vitamins, electronics, documents and commercial goods from anywhere in Australia to anywhere in Bangladesh. We consolidate shipments to keep costs down, and our Bangladesh team manages clearance and final delivery."
-        image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
+        image="/images/service-au-bd.jpg"
         imageAlt="Export operations"
         included={[
           "Collection from your door [Sydney metro / where available] or drop-off at our Sydney location",
@@ -88,7 +88,7 @@ export default function ServicesPage() {
         eyebrow="Service 2"
         title="Shipping from Bangladesh to Australia"
         intro="Bring personal items, traditional clothing, food items (where permitted), samples and commercial stock from Bangladesh to Australia. Our own team in Bangladesh collects, checks and prepares your shipment, and we handle arrival and delivery in Australia."
-        image="https://images.unsplash.com/photo-1579113800032-c38bd7635818?auto=format&fit=crop&w=1200&q=80"
+        image="/images/service-bd-au.jpg"
         imageAlt="Import operations"
         reverse
         included={[
@@ -112,7 +112,7 @@ export default function ServicesPage() {
         eyebrow="Service 3"
         title="Interstate courier across Australia"
         intro="Reliable parcel and freight delivery between Sydney and every Australian state and territory. Whether it's one carton or a regular weekly run, we book it, manage it and keep you informed, with a local team you can actually call."
-        image="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=1200&q=80"
+        image="/images/service-interstate-truck.jpg"
         imageAlt="Interstate truck delivery"
         included={[
           "Parcels and cartons of all sizes",
@@ -138,7 +138,7 @@ export default function ServicesPage() {
         eyebrow="Coming soon"
         title="3PL & Fulfilment: launching [month 2026/27]"
         intro="Focus on selling. We'll handle the rest. Our Sydney warehouse will store your stock, receive orders automatically from your online store, and pick, pack and ship every order on time — including stock imported from Bangladesh."
-        image="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1200&q=80"
+        image="/images/service-fulfilment.jpg"
         imageAlt="Fulfilment warehouse"
         reverse
         included={[

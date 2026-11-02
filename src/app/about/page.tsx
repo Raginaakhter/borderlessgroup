@@ -45,7 +45,7 @@ export default function AboutPage() {
           <Reveal className="relative">
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-border bg-surface">
               <Image
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80"
+                src="/images/about-team.jpg"
                 alt="Our team"
                 fill
                 sizes="(max-width: 1024px) 100vw, 42vw"
@@ -171,7 +171,7 @@ export default function AboutPage() {
             <Reveal className="group relative overflow-hidden rounded-3xl border border-border bg-white">
               <div className="relative h-44">
                 <Image
-                  src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=800&q=80"
+                  src="/images/sydney-city.jpg"
                   alt="Sydney"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -198,7 +198,7 @@ export default function AboutPage() {
             <Reveal delay={0.08} className="group relative overflow-hidden rounded-3xl border border-border bg-white">
               <div className="relative h-44">
                 <Image
-                  src="https://images.unsplash.com/photo-1559666126-84f389727b9a?auto=format&fit=crop&w=800&q=80"
+                  src="/images/bangladesh-city.jpg"
                   alt="Bangladesh"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -223,7 +223,7 @@ export default function AboutPage() {
             <Reveal delay={0.16} className="group relative overflow-hidden rounded-3xl border border-border bg-white">
               <div className="relative h-44">
                 <Image
-                  src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=800&q=80"
+                  src="/images/carrier-network.jpg"
                   alt="Carrier network"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"

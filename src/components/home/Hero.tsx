@@ -123,7 +123,7 @@ export default function Hero() {
               <StaticGlobe />
             </div>
 
-            {/* floating photo card: cargo plane */}
+            {/* floating photo card: Sydney warehouse */}
             <motion.div
               initial={reduce ? false : { opacity: 0, y: 20, scale: 0.9 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -131,20 +131,20 @@ export default function Hero() {
               className="absolute -left-3 bottom-6 hidden h-28 w-44 overflow-hidden rounded-2xl border border-border bg-white shadow-[0_18px_40px_-18px_rgba(11,30,63,0.35)] lg:block"
             >
               <Image
-                src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?auto=format&fit=crop&w=600&q=80"
-                alt="Air cargo"
+                src="/images/sydney-warehouse.jpg"
+                alt="Sydney warehouse"
                 fill
                 sizes="176px"
                 className="object-cover"
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" />
               <div className="absolute inset-x-3 bottom-2 text-white">
-                <div className="text-[9px] font-semibold uppercase tracking-wider opacity-80">Air freight</div>
-                <div className="text-xs font-semibold">Sydney &rarr; Dhaka</div>
+                <div className="text-[9px] font-semibold uppercase tracking-wider opacity-80">Sydney warehouse</div>
+                <div className="text-xs font-semibold">Operations hub</div>
               </div>
             </motion.div>
 
-            {/* floating photo card: container ship */}
+            {/* floating photo card: Port Botany */}
             <motion.div
               initial={reduce ? false : { opacity: 0, y: 20, scale: 0.9 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -152,8 +152,8 @@ export default function Hero() {
               className="absolute -right-3 top-10 hidden h-28 w-44 overflow-hidden rounded-2xl border border-border bg-white shadow-[0_18px_40px_-18px_rgba(11,30,63,0.35)] lg:block"
             >
               <Image
-                src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=600&q=80"
-                alt="Container terminal"
+                src="/images/port-botany.jpg"
+                alt="Port Botany"
                 fill
                 sizes="176px"
                 className="object-cover"
@@ -161,7 +161,7 @@ export default function Hero() {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent" />
               <div className="absolute inset-x-3 bottom-2 text-white">
                 <div className="text-[9px] font-semibold uppercase tracking-wider opacity-80">Sea freight</div>
-                <div className="text-xs font-semibold">Chattogram port</div>
+                <div className="text-xs font-semibold">Port Botany</div>
               </div>
             </motion.div>
           </motion.div>

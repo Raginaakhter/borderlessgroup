@@ -1,7 +1,6 @@
 import Hero from "@/components/home/Hero";
 import TrustBar from "@/components/home/TrustBar";
 import ServiceCategories from "@/components/home/ServiceCategories";
-import ProductCategories from "@/components/home/ProductCategories";
 import FeatureRow from "@/components/home/FeatureRow";
 import Stats from "@/components/home/Stats";
 import HowItWorks from "@/components/home/HowItWorks";
@@ -15,7 +14,6 @@ export default function Home() {
     <>
       <Hero />
       <ServiceCategories />
-      <ProductCategories />
       <FeatureRow />
       <TrustBar />
       <Stats />

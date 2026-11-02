@@ -46,8 +46,8 @@ export default function Audience() {
 
           <div className="relative mt-8 overflow-hidden rounded-3xl border border-border">
             <Image
-              src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80"
-              alt="Container terminal"
+              src="/images/port-botany.jpg"
+              alt="Port Botany to Chattogram"
               width={1200}
               height={700}
               sizes="(max-width: 1024px) 100vw, 46vw"
